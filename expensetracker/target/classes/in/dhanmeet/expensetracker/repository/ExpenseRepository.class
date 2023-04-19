@@ -1,0 +1,3 @@
+Êþº¾   4   ;in/dhanmeet/expensetracker/repository/ExpenseRepository  java/lang/Object  5org/springframework/data/jpa/repository/JpaRepository 
+SourceFile ExpenseRepository.java 	Signature ‰Ljava/lang/Object;Lorg/springframework/data/jpa/repository/JpaRepository<Lin/bushansirgur/expensetracker/model/Expense;Ljava/lang/Long;>; RuntimeVisibleAnnotations +Lorg/springframework/stereotype/Repository;               	    
+        

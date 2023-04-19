@@ -8,7 +8,7 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in.bushansirgur</groupId>
+	<groupId>in.dhanmeet</groupId>
 	<artifactId>expensetracker</artifactId>
 	<version>v1</version>
 	<name>expensetracker</name>
