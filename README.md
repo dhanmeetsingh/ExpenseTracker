@@ -1,88 +1,72 @@
-# Angular 9, Spring boot and MySQL Web Applicaton - Expense Tracker
-A simple expense tracking application built with Angular 9 and Spring boot that connects to the MySQL database. Application built using spring data JPA to perform database operations. Users can add, list, update, delete, sort, and filter the expenses.
+## Expense Tracker Web Application
+A simple expense tracking application built with Angular 9 and Spring Boot that connects to a MySQL database. The application allows users to track their expenses, add new expenses, update existing ones, filter expenses by name and amount, and delete expenses.
 
-## Requirements
+Features
+Register and login functionality
+List of expenses
+Add a new expense
+Update an existing expense
+Delete an expense
+Filter expenses by name and amount
+Technologies Used
+The following technologies were used to build this application:
 
-1. Java - 1.8.x
+Angular 9
+Spring Boot
+MySQL
+HTML5 and CSS3
+Requirements
+To run this application on your local machine, you will need the following:
 
-2. Maven - 3.x.x
+Java - 1.8.x
+Maven - 3.x.x
+MySQL - 5.x.x
+Angular - 9.x.x
+Node - 12.x.x
+Npm - 6.x.x
+Getting Started
+To get started with this application, follow these steps:
 
-3. Mysql - 5.x.x
-
-4. Angular - 9.x.x
-
-5. Node - 12.x.x
-
-6. Npm - 6.x.x
-
-## Steps to Setup
-
-**1. Clone the application**
-
-```bash
-git clone https://github.com/scbushan05/angular9-springboot-expensetracker.git
-```
-
-**2. Create Mysql database**
-```bash
+Clone the repository to your local machine:
+bash
+Copy code
+git clone https://github.com/<your_username>/ExpenseTracker.git
+Create a MySQL database:
+lua
+Copy code
 create database expensetracker
-```
+Change the MySQL username and password to match your installation:
 
-**3. Change mysql username and password as per your installation**
+Open src/main/resources/application.properties
+Change spring.datasource.username and spring.datasource.password as per your MySQL installation
+Build and run the application using Maven (expensetracker):
 
-+ open `src/main/resources/application.properties`
+```mvn package```
 
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
-
-**4. Build and run the app using maven (expensetracker)**
-
-```bash
-mvn package
 java -jar target/expensetracker-v1.jar
-```
+Alternatively, you can run the application without packaging it using:
 
-Alternatively, you can run the app without packaging it using -
 
-```bash
-mvn spring-boot:run
-```
+```mvn spring-boot:run```
+Install Node modules for the Angular application (expense-tracker-frontend):
 
-The app will start running at <http://localhost:8080>.
+```npm install```
+Run the Angular application:
 
-## Explore Rest APIs
+```ng serve```
+Alternatively, you can run the below command to open the application in the default web browser:
 
-The app defines following CRUD APIs.
+```ng serve --open```
+The application will start running at http://localhost:8080.
 
-    GET /api/v1/expenses
-    
-    POST /api/v1/expenses
-    
-    GET /api/v1/expenses/{expenseId}
-    
-    DELETE /api/v1/expenses/{expenseId}
+REST APIs
+The application defines the following CRUD APIs:
 
-You can test them using postman or any other rest client.
+GET /api/v1/expenses
+POST /api/v1/expenses
+GET /api/v1/expenses/{expenseId}
+DELETE /api/v1/expenses/{expenseId}
+You can test these APIs using Postman or any other REST client.
 
-**5. Install node modules for angular application (expense-tracker-frontend)**
-
-```bash
-npm install
-```
-
-**6. Run the angular application**
-
-```bash
-ng serve
-```
-
-Alternatively, you can run the below command to open the application in default web browser -
-
-```bash
-ng serve --open
-```
-
-## Learn more
-
-You can find the tutorial for this application on my blog -
-
-<https://bushansirgur.in/angular-9-and-spring-boot-crud-tutorial-introduction-and-setup/>
+## Conclusion
+This expense tracker application is a simple yet powerful tool to help you manage your finances. Whether you want to keep track of your daily expenses or monitor your spending habits, this application can help you stay on top of your finances. Try it out today and take control of your money!
