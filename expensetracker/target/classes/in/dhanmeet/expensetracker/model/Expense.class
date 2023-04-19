@@ -1,8 +1,0 @@
-Êþº¾   4 &  ,in/dhanmeet/expensetracker/model/Expense  java/lang/Object id Ljava/lang/Long; RuntimeVisibleAnnotations Ljavax/persistence/Id; "Ljavax/persistence/GeneratedValue; strategy "Ljavax/persistence/GenerationType; IDENTITY expense Ljava/lang/String; description amount Ljava/math/BigDecimal; <init> ()V Code  java/lang/Error  ªUnresolved compilation problem: 
-	The declared package "in.dhanmeetsingh.expensetracker.model" does not match the expected package "in.bushansirgur.expensetracker.model"
-
-     (Ljava/lang/String;)V LineNumberTable LocalVariableTable this .Lin/dhanmeet/expensetracker/model/Expense; 
-SourceFile Expense.java Ljavax/persistence/Entity; Ljavax/persistence/Table; name tbl_expenses !                  	  
-e                          4     
-» Y· ¿                   
-           !      "   #  $s %
