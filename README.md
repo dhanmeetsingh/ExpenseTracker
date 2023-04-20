@@ -27,10 +27,6 @@ Npm - 6.x.x
 Getting Started
 To get started with this application, follow these steps:
 
-Clone the repository to your local machine:
-bash
-Copy code
-git clone https://github.com/<your_username>/ExpenseTracker.git
 Create a MySQL database:
 lua
 Copy code
